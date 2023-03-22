@@ -115,7 +115,7 @@ public class LogInStepDefinitions {
     @Then("The user can see user1 in the profile menu, after login")
     public void the_user_can_see_user1_in_the_profile_menu_after_login() {
 
-        BrowserUtils.waitForVisibility(login.accountName,10);
+        BrowserUtils.waitForVisibility(login.accountName,20);
         String expectedUserName = login.accountName.getText();
         String actualUserName = "John Doe";
         Assert.assertEquals(expectedUserName, actualUserName);
@@ -124,7 +124,7 @@ public class LogInStepDefinitions {
 
     @Then("The user can see storemanager51 in the profile menu, after login")
     public void the_user_can_see_storemanager51_in_the_profile_menu_after_login() {
-        BrowserUtils.waitForVisibility(login.accountName,10);
+        BrowserUtils.waitForVisibility(login.accountName,20);
         String expectedUserName = login.accountName.getText();
         String actualUserName = "John Doe";
         Assert.assertEquals(expectedUserName, actualUserName);
@@ -132,7 +132,7 @@ public class LogInStepDefinitions {
 
     @Then("The user can see salesmanager101 in the profile menu, after login")
     public void the_user_can_see_salesmanager101_in_the_profile_menu_after_login() {
-        BrowserUtils.waitForVisibility(login.accountName,10);
+        BrowserUtils.waitForVisibility(login.accountName,20);
         String expectedUserName = login.accountName.getText();
         String actualUserName = "John Doe";
         Assert.assertEquals(expectedUserName, actualUserName);

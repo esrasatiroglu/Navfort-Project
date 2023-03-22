@@ -48,7 +48,7 @@ Feature: Login
     Then The user can see user1 in the profile menu, after login
   @smoke
   Scenario: The user can see his own "username" (what he types in the username field) in the profile menu, after login
-    When The user logs in as a sales manager
+    When The user logs in as a store manager
     Then The user can see storemanager51 in the profile menu, after login
   @smoke
   Scenario: The user can see his own "username" (what he types in the username field) in the profile menu, after login
